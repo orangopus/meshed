@@ -1,0 +1,155 @@
+.navbar {
+  background: none !important;
+  padding-top: 52px !important;
+  padding-left: 60px !important;
+  padding-right: 60px !important;
+}
+
+.body {
+  background-color: #0e1726 !important;
+}
+
+.btn {
+  border-radius: 45px !important;
+}
+
+.alert {
+  display: none !important;
+}
+
+.card-body {
+  background: #060818 !important;
+}
+
+.card {
+  background: transparent !important;
+  margin-right: 0 !important;
+  width: 100% !important;
+  border: none !important;
+}
+
+.input-group {
+  width: 91%;
+  border-radius: 25px !important;
+  background: #060818;
+  height: 38px;
+  margin: auto;
+}
+
+div#chat-column {
+  height: 67.5vh;
+}
+
+#chat .chat-messages {
+  border-radius: 25px;
+  margin-bottom: 20px !important;
+}
+
+.jumbotron-glimesh,
+.jumbotron-mature-content {
+  height: 62.5vh !important;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+  border-radius: 25px;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25) !important;
+}
+
+.card-header {
+  background-color: transparent !important;
+}
+
+h1.display-4.font-weight-normal {
+  text-align: center;
+}
+
+.chat-messages::-webkit-scrollbar {
+  display: none !important;
+}
+
+.bubble {
+  border-radius: 25px !important;
+}
+
+.card-stream img {
+  border-radius: 25px;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25) !important;
+}
+
+.jumbotron-glimesh {
+  background: transparent !important;
+}
+
+video#video-player {
+  border-radius: 25px;
+}
+
+a.input-group-text.emoji-activator {
+  background: transparent;
+}
+
+a.input-group-text.dropdown-toggle {
+  background: transparent;
+}
+
+.input-group-text {
+  border: none !important;
+}
+
+.form-control {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.card-footer:last-child {
+  /* border-radius: 0 0 calc(.25rem - 1px) calc(.25rem - 1px); */
+  margin-top: 20px !important;
+  border-radius: 25px !important;
+  width: 135% !important;
+  height: 149px !important;
+  background: #060818 !important;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25) !important;
+  border-radius: 25px !important;
+}
+
+.navbar {
+  margin-left: 5% !important;
+  margin-right: 5% !important;
+}
+
+#streamer-avatar > a > img {
+  width: 142px !important;
+  height: 142px !important;
+  border-radius: 25px !important;
+}
+
+.img-avatar {
+  border-radius: 50%;
+  border: none !important;
+}
+
+.embed-responsive {
+  width: 100% !important;
+}
+
+.container-fluid > .row {
+  margin-right: 10% !important;
+  margin-left: 10% !important;
+}
+
+#app {
+  background: #0e1726 !important;
+}
+
+.col-md-12 {
+  text-align: left !important;
+  padding: 0 !important;
+}
+
+.p-lg-5 {
+  padding: 0 !important;
+  margin: 0 !important;
+}
