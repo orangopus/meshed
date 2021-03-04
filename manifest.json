@@ -1,25 +1,23 @@
 {
-    "name": "meshed",
-    "description": "Chrome extension for Glimesh",
-    "version": "0.0.1",
-    "manifest_version": 2,
-    "content_scripts": [
-        {
-            "matches": ["https://glimesh.tv/*"],
-            "js": ["jquery.js","app.js"],
-            "css" : ["style.css"]
-        }
-    ],
-    "web_accessible_resources": [
-        "index.html"
-    ],
-    "background": {
-        "scripts": ["jquery.js"],
-        "persistent": false
-    },  
-    "options_page": "options.html",
-    "browser_action": {
-        "default_popup": "popup.html"
-    },
-    "content_security_policy": "script-src 'self' https://example.com; object-src 'self'"
+  "name": "meshed",
+  "description": "Chrome extension for Glimesh",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["https://glimesh.tv/*"],
+      "js": ["jquery.js", "app.js"],
+      "css": ["style.css"]
+    }
+  ],
+  "web_accessible_resources": ["index.html", "style.css", "app.js"],
+  "background": {
+    "scripts": ["jquery.js"],
+    "persistent": false
+  },
+  "options_page": "options.html",
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "content_security_policy": "script-src 'self' https://example.com; object-src 'self'"
 }
