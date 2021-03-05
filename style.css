@@ -145,6 +145,15 @@ a.input-group-text.dropdown-toggle {
   margin-top: 25px !important;
 }
 
+.card-header:first-child {
+  background-color: transparent !important;
+}
+
+#profile > .card-footer {
+  width: 100% !important;
+  padding: 25px !important;
+}
+
 .form-control:focus {
   outline: none !important;
   box-shadow: none !important;
