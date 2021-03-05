@@ -1,3 +1,29 @@
+@font-face {
+  font-family: "Quicksand";
+  src: url("chrome-extension://__MSG_@@extension_id__/quicksand.ttf");
+}
+
+*,
+html,
+body {
+  font-family: "Quicksand";
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Quicksand" !important;
+}
+
 .navbar {
   background: none !important;
   padding-top: 52px !important;
@@ -109,10 +135,14 @@ a.input-group-text.dropdown-toggle {
   margin-top: 20px !important;
   border-radius: 25px !important;
   width: 135% !important;
-  height: 149px !important;
+  padding: 0 !important;
   background: #060818 !important;
   box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25) !important;
   border-radius: 25px !important;
+}
+
+.card-footer > .row {
+  margin-top: 25px !important;
 }
 
 .navbar {

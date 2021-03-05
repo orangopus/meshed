@@ -10,11 +10,20 @@
       "css": ["style.css"]
     }
   ],
-  "web_accessible_resources": ["index.html", "style.css", "app.js"],
+  "web_accessible_resources": [
+    "index.html",
+    "style.css",
+    "app.js",
+    "quicksand.ttf"
+  ],
   "background": {
     "scripts": ["jquery.js"],
     "persistent": false
   },
+  "permissions": [
+    "http://fonts.googleapis.com/",
+    "https://fonts.googleapis.com/"
+  ],
   "options_page": "options.html",
   "browser_action": {
     "default_popup": "popup.html"
