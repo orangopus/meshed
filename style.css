@@ -50,6 +50,15 @@ body {
   background: none !important;
 }
 
+h5.mb-0 {
+  margin-bottom: 3px !important;
+}
+
+.badge {
+  border-radius: 25px !important;
+  font-size: 85% !important;
+}
+
 .btn {
   border-radius: 45px !important;
 }
@@ -89,6 +98,7 @@ div#chat-column {
 .jumbotron-glimesh,
 .jumbotron-mature-content {
   height: 62.5vh !important;
+  border-radius: 25px !important;
 }
 
 .card-body {
