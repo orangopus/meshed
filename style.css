@@ -145,6 +145,12 @@ a.input-group-text.dropdown-toggle {
   margin-top: 25px !important;
 }
 
+.form-control:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  color: #ffffff !important;
+}
+
 .navbar {
   margin-left: 5% !important;
   margin-right: 5% !important;
