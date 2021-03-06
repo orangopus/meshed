@@ -92,7 +92,8 @@ h5.mb-0 {
 }
 
 div#chat-column {
-  height: 67.5vh;
+  height: auto;
+  margin-bottom: 165px;
 }
 
 #chat .chat-messages {
