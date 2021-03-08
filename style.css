@@ -238,8 +238,8 @@ a.input-group-text.dropdown-toggle {
 }
 
 .container-fluid > .row {
-  margin-right: 10% !important;
-  margin-left: 10% !important;
+  margin-right: 5% !important;
+  margin-left: 5% !important;
 }
 
 #app {
