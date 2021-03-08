@@ -4,7 +4,7 @@ Visual Chrome Extension for Glimesh UI
 
 ## Meshed Setup
 
-Download the zip and extract it anywhere...
+Download the zip and extract it anywhere... or do `git clone https://github.com/orangopus/meshed.git` wherever you want to clone it.
 
 Go to `chrome://extensions/` and enable developer mode:
 
