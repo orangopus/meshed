@@ -31,15 +31,11 @@ h6 {
   padding-right: 60px !important;
 }
 
-body {
-  background-color: #0e1726 !important;
-}
 .fancy-bg {
   padding-top: 40px;
 }
 
 .fancy-bg .position-relative {
-  background: #060818 !important;
   border-radius: 25px !important;
   box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25) !important;
   background: url(/images/homepage/background-resized-6bc48b1….webp?vsn=d)
@@ -63,10 +59,6 @@ h5.mb-0 {
   border-radius: 45px !important;
 }
 
-.card-body {
-  background: #060818 !important;
-}
-
 .alert-warning {
   color: #ffffff !important;
   background-color: #c82333 !important;
@@ -87,9 +79,13 @@ h5.mb-0 {
 .input-group {
   width: 91%;
   border-radius: 25px !important;
-  background: #060818;
   height: 38px;
   margin: auto;
+}
+
+input {
+  border-radius: 25px !important;
+  margin: 0 10px !important;
 }
 
 div#chat-column {
@@ -112,7 +108,6 @@ div#chat-column {
   flex: 1 1 auto;
   min-height: 1px;
   padding: 1.25rem;
-  border-radius: 25px;
   box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25) !important;
 }
 
@@ -142,24 +137,12 @@ h1.display-4.font-weight-normal {
   background: transparent !important;
 }
 
-video#video-player {
-  border-radius: 25px;
-}
-
-a.input-group-text.emoji-activator {
-  background: transparent;
-}
-
-a.input-group-text.dropdown-toggle {
-  background: transparent;
-}
-
 .input-group-text {
   border: none !important;
+  border-radius: 25px !important;
 }
 
 .form-control {
-  background-color: #060818 !important;
   border: none !important;
 }
 
@@ -169,7 +152,6 @@ a.input-group-text.dropdown-toggle {
   border-radius: 25px !important;
   width: 135% !important;
   padding: 0 !important;
-  background: #060818 !important;
   box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25) !important;
   border-radius: 25px !important;
 }
@@ -242,10 +224,6 @@ a.input-group-text.dropdown-toggle {
   margin-left: 5% !important;
 }
 
-#app {
-  background: #0e1726 !important;
-}
-
 .col-md-12 {
   text-align: left !important;
   padding: 0 !important;
@@ -254,4 +232,38 @@ a.input-group-text.dropdown-toggle {
 .p-lg-5 {
   padding: 0 !important;
   margin: 0 !important;
+}
+
+@media screen and (max-width: 600px) {
+  .display-2 {
+    font-size: 4rem !important;
+    text-align: center !important;
+  }
+
+  .display-4 {
+    margin-top: 25px !important;
+  }
+
+  .text {
+    text-align: center !important;
+  }
+
+  .text-white {
+    text-align: center !important;
+  }
+
+  .ml-3,
+  .mx-3 {
+    margin: auto !important;
+  }
+
+  .navbar-toggler:focus {
+    outline: none !important;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .navbar {
+    padding: 0 !important;
+  }
 }
