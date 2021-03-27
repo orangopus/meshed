@@ -1,6 +1,6 @@
 {
   "name": "meshed",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Visual Chrome extension for Glimesh",
   "main": "app.js",
   "scripts": {
