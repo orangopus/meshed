@@ -196,7 +196,6 @@ h1.display-4.font-weight-normal {
 .form-control:focus {
   outline: none !important;
   box-shadow: none !important;
-  color: #ffffff !important;
 }
 
 .navbar {
