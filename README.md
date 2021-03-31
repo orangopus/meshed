@@ -2,6 +2,12 @@
 
 Visual Chrome Extension for Glimesh UI
 
+[![](https://developer-chrome-com.imgix.net/image/BrQidfK9jaQyIHwdw91aVpkPiib2/LclHxMxqoswLNRcUW3m5.png?auto=format&w=228)](https://chrome.google.com/webstore/detail/meshed/hkjokliffmoapjnpnpldlbegjgkldmin?hl=en)
+
+```
+Please note: Meshed will become deprecated once we make a PR to the Glimesh.tv repo.
+```
+
 ## Meshed Setup
 
 Download the zip and extract it anywhere... or do `git clone https://github.com/orangopus/meshed.git` wherever you want to clone it.
