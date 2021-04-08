@@ -46,8 +46,24 @@ h6 {
   background: none !important;
 }
 
+.card-footer.text-center.lead {
+  width: 100% !important;
+}
+
 h5.mb-0 {
   margin-bottom: 3px !important;
+}
+
+input#customFile {
+  border-radius: 0 !important;
+}
+
+.container-stream-list {
+  padding-bottom: 50px !important;
+}
+
+.col-md-12.p-lg-4.mx-auto {
+  text-align-last: center;
 }
 
 .badge {
@@ -57,6 +73,10 @@ h5.mb-0 {
 
 .btn {
   border-radius: 45px !important;
+}
+
+h2.text-white {
+  color: var(--body-color) !important;
 }
 
 .alert-warning {
@@ -161,14 +181,24 @@ h1.display-4.font-weight-normal {
   overflow: hidden;
 }
 
+.list-group-item {
+  background-color: transparent !important;
+}
+
 .list-group-item.active {
   border-radius: 100px !important;
+  background-color: var(--secondary-hover-bg-color) !important;
 }
 
 .list-group-item-action:active,
 .list-group-item-action:focus,
 .list-group-item-action:hover {
   border-radius: 100px !important;
+  background-color: var(--secondary-hover-bg-color) !important;
+}
+
+.list-group-flush > .list-group-item {
+  border-width: 0 !important;
 }
 
 .modal-header {
@@ -196,7 +226,6 @@ h1.display-4.font-weight-normal {
 .form-control:focus {
   outline: none !important;
   box-shadow: none !important;
-  color: #ffffff !important;
 }
 
 .navbar {
