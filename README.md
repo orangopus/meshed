@@ -5,8 +5,10 @@ Visual Chrome Extension for Glimesh UI
 [![](https://developer-chrome-com.imgix.net/image/BrQidfK9jaQyIHwdw91aVpkPiib2/LclHxMxqoswLNRcUW3m5.png?auto=format&w=228)](https://chrome.google.com/webstore/detail/meshed/hkjokliffmoapjnpnpldlbegjgkldmin?hl=en)
 
 ```
-Please note: Meshed will become deprecated once we make a PR to the Glimesh.tv repo.
+Deprecated but you can still fork it and play around with it yourself!
 ```
+
+[See the PR](https://github.com/Glimesh/glimesh.tv/pull/650)
 
 ## Meshed Setup
 
